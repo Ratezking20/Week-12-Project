@@ -1,0 +1,8 @@
+# List whatever files you want to ignore below So that when you push files to GitHub repository these will be ignored.
+
+node_modules/
+node_modules\
+package-lock.json
+package.json
+
+

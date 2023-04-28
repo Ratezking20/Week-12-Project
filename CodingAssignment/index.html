@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.O.A.T.</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <nav style="margin: 0; padding: 0; text-align: center" class="container-fluid bg-dark">
+        <h4 >
+           <a href="index.html">TheGreatest.com</a>
+        </h4>
+
+    </nav>
+
+</head>
+
+<body class="container">
+ 
+    <h1 style="text-align: center;">The Greatest Of All Time</h1>
+    
+    <div id="new-player" class="card">
+        <h5 style="text-align: center">Add a Player to the <b>GOAT</b> list</h5> <br>
+        <input type="text" placeholder="First Name" id="player-first-name" style="display: inline; margin: auto;" class="form-control">
+        <input type="text" placeholder= "Last Name" id="player-last-name" style="margin: auto;" class="form-control">
+        <button type="button" id="add-new-player" class="btn btn-success">Add Player</button>
+    </div>
+    
+    <div style="text-align: center;" id="players-list"></div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
